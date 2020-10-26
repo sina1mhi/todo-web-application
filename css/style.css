@@ -1,0 +1,42 @@
+body {
+  /* background-image: url("https://source.unsplash.com/1920x1080/?nature,mountain,city,black"); */
+  background-color: #212121;
+  background-repeat: no-repeat;
+}
+
+#background-overlay {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#author-parent {
+  position: relative;
+}
+
+#author {
+  color: whitesmoke;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-remove {
+  color: red;
+}
+
+.collection {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mt-5 {
+  margin-top: 5%;
+}
+
+.ml-1 {
+  margin-left: 1%;
+}
